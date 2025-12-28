@@ -9,6 +9,7 @@ Assert that environment variables are present. Fail fast in CI.
   <a href="https://github.com/mgks/env-must-exist/stargazers"><img src="https://img.shields.io/github/stars/mgks/env-must-exist?style=flat-square&logo=github" alt="stars"></a>
 
 **Problem:** You deploy to production, but forgot to add `DATABASE_URL` to the dashboard. Your app crashes silently or in a weird way 5 minutes later.
+
 **Solution:** Add a pre-flight check script. If the var is missing, the deploy fails immediately with a clear error.
 
 ## Install
