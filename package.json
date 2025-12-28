@@ -1,10 +1,10 @@
 {
-  "name": "package-name",
+  "name": "env-must-exist",
   "version": "0.1.0",
   "description": "A short, honest description of what this package does.",
   "type": "module",
   "bin": {
-    "package-name": "dist/cli.js"
+    "env-must-exist": "dist/cli.js"
   },
   "main": "./dist/index.js",
   "exports": {
@@ -25,10 +25,14 @@
     "lint": "xo"
   },
   "keywords": [
-    "node",
     "cli",
-    "npm",
-    "utility"
+    "env",
+    "environment",
+    "assert",
+    "check",
+    "ci",
+    "pipeline",
+    "validate"
   ],
   "author": {
     "name": "mgks",
@@ -37,12 +41,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mgks/package-name.git"
+    "url": "git+https://github.com/mgks/env-must-exist.git"
   },
   "bugs": {
-    "url": "https://github.com/mgks/package-name/issues"
+    "url": "https://github.com/mgks/env-must-exist/issues"
   },
-  "homepage": "https://github.com/mgks/package-name#readme",
+  "homepage": "https://github.com/mgks/env-must-exist#readme",
   "funding": "https://github.com/sponsors/mgks",
   "devDependencies": {
     "@types/node": "^20.0.0",
