@@ -1,6 +1,6 @@
 # env-must-exist
 
-Assert that environment variables are present. Fail fast in CI.
+**Assert that environment variables are present. Fail fast in CI.**
 
 <p>
   <img src="https://img.shields.io/npm/v/env-must-exist.svg?style=flat-square&color=d25353" alt="npm version">
@@ -9,9 +9,9 @@ Assert that environment variables are present. Fail fast in CI.
   <img src="https://img.shields.io/github/license/mgks/env-must-exist.svg?style=flat-square&color=blue" alt="license">
 </p>
 
-**Problem:** You deploy to production, but forgot to add `DATABASE_URL` to the dashboard. Your app crashes silently or in a weird way 5 minutes later.
+**The Problem:** You deploy to production, but forgot to add `DATABASE_URL` to the dashboard. Your app crashes silently or in a weird way 5 minutes later.
 
-**Solution:** Add a pre-flight check script. If the var is missing, the deploy fails immediately with a clear error.
+**The Solution:** Add a pre-flight check script. If the var is missing, the deploy fails immediately with a clear error.
 
 ## Install
 
