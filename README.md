@@ -9,11 +9,9 @@
   <img src="https://img.shields.io/github/license/mgks/env-must-exist.svg?style=flat-square&color=blue" alt="license">
 </p>
 
-**The Problem:** You deploy to production, but forgot to add `DATABASE_URL` to the dashboard. Your app crashes silently or in a weird way 5 minutes later.
+A tiny pre-flight check that stops broken deploys before they happen. It verifies required environment variables like `DATABASE_URL` at deploy time and fails fast with a clear error if anything is missing, instead of letting your app crash later in production in confusing ways.
 
-**The Solution:** Add a pre-flight check script. If the var is missing, the deploy fails immediately with a clear error.
-
-## Install
+## Installation
 
 ```bash
 npm install env-must-exist
